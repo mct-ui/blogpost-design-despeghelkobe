@@ -1,8 +1,33 @@
 /*
-    Elements: Page
-    ---
-    Default markup for page level elements
+    components: Author
 */
+
+.c-author {
+    display: flex;
+    align-items: center;
+}
+
+.c-author__image {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.c-author__name,
+.c-author__meta {
+    margin-bottom: 0;
+}
+
+.c-author__meta {
+    font-style: 14px;
+    font-family: "inter", "Helvatica Neue", Arial, Helvetica, sans-serif;
+}
+
+.c-author__name {
+    font-style: 16px;
+    line-height: 24px;
+}
 
 /*
     Fonts
@@ -21,6 +46,12 @@
     font-weight: 700;
     src: url("../fonts/Inter-Bold.woff2") format("woff2");
 }
+
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
 
 html {
     font-size: 16px;
